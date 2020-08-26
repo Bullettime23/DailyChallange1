@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
+@keyframes blink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(5px) scaleY(0)
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
 $color: #F588B5;
 $color2: #F5B6DB;
 // use only the available space inside the 400x400 frame
@@ -98,16 +110,4 @@ $color2: #F5B6DB;
 		background-color: $color;
 		border-radius: 100%;
 	}
-}
-@keyframes blink {
-  90% {
-    transform: none;
-    animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(5px) scaleY(0)
-  }
-  100% {
-    animation-timing-function: ease-out;
-  }
 }
