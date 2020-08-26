@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
-
 @keyframes blink {
   90% {
     transform: none;
@@ -14,7 +12,7 @@
 }
 $color: #F588B5;
 $color2: #F5B6DB;
-// use only the available space inside the 400x400 frame
+
 .frame {
   position: absolute;
   top: 50%;
