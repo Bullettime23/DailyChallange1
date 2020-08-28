@@ -44,16 +44,16 @@ $color2: #F5B6DB;
   position: relative;
   display: flex;
   justify-content: space-between;
-	
-  div {		
+}
+.ears div {		
     position: absolute;
     height: 50px;
     width: 50px;
     background-color: $color2;		
     border-top: solid 5px $color;
     border-radius: 10px;
-   }
-   .l-ear {
+ }
+ .l-ear {
      left: 5%;
     border-left: solid 5px $color;
     transform: skew(50deg, 160deg)  rotate(0.1turn);
@@ -64,7 +64,6 @@ $color2: #F5B6DB;
      border-right: solid 5px $color;
      transform: skew(130deg, 20deg)  rotate(-0.1turn);
    }
-}
 .head {
   position: relative;
   display: flex;
@@ -83,7 +82,8 @@ $color2: #F5B6DB;
   display: flex;
   justify-content: space-between;
   animation: blink 5s infinite;
-  div {
+}
+.eyes div {
     width: 30px;
     height: 30px;
     background-color: black;
@@ -91,7 +91,6 @@ $color2: #F5B6DB;
     box-sizing: border-box;
     border: solid 10px white; 
   }
-}
 .nose {
   display: flex;
   justify-content: space-around;
@@ -101,10 +100,10 @@ $color2: #F5B6DB;
   border-radius: 70%;
   background-color: $color2;
   transform: scale(1, 0.9);
-  div {
+}
+.nose  div {
     width: 20px;
     height: 20px;
     background-color: $color;
     border-radius: 100%;
   }
-}
