@@ -10,8 +10,6 @@
     animation-timing-function: ease-out;
   }
 }
-$color: #F588B5;
-$color2: #F5B6DB;
 
 .frame {
   position: absolute;
@@ -49,18 +47,18 @@ $color2: #F5B6DB;
     position: absolute;
     height: 50px;
     width: 50px;
-    background-color: $color2;		
-    border-top: solid 5px $color;
+    background-color: #F5B6DB;		
+    border-top: solid 5px #F588B5;
     border-radius: 10px;
  }
 .l-ear {
   left: 5%;
-  border-left: solid 5px $color;
+  border-left: solid 5px #F588B5;
   transform: skew(50deg, 160deg)  rotate(0.1turn);
  }
 .r-ear {
   right: 5%;
-  border-right: solid 5px $color;
+  border-right: solid 5px #F588B5;
   transform: skew(130deg, 20deg)  rotate(-0.1turn);
  }
 .head {
@@ -72,7 +70,7 @@ $color2: #F5B6DB;
   z-index: 2;
   width: 200px;
   height: 200px;
-  background-color: $color;
+  background-color: #F588B5;
   border-radius: 100%;
 }
 .eyes {
@@ -97,12 +95,12 @@ $color2: #F5B6DB;
   width: 60px;
   height: 60px;
   border-radius: 70%;
-  background-color: $color2;
+  background-color: #F5B6DB;
   transform: scale(1, 0.9);
 }
 .nose > div {
     width: 20px;
     height: 20px;
-    background-color: $color;
+    background-color: #F588B5;
     border-radius: 100%;
   }
